@@ -1,0 +1,410 @@
+body {
+    /* overflow: hidden; */
+    margin: 0 auto; 
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav {
+    width: 100%;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed; 
+    background-color: #fff;
+    z-index: 3;
+}
+
+.nav .logo {
+
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+    margin-right: 114px;
+    font-weight: 600;
+}
+
+.header {
+    padding-top: 75px;
+    background-image: url('./img/header.jpg');
+    background-repeat: no-repeat;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header h4 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 73px;
+    margin-bottom: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header h1 {
+    max-width: 937px;
+    font-size: 58px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+
+}
+
+.header p {
+    margin: 0px 0px 54px 0px;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-btns {
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-btn1 {
+    padding: 16px 58.5px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background: #FA4A0C;
+    border: none;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.header-btn2 {
+    padding: 16px 58.5px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* TWO SCREEN */
+
+.two-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -70px;
+}
+
+.two-img1 {
+   background-image: url(./img/Rectangle1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin-top: -25px;
+   width: 299px;
+   height: 586px;
+   z-index: 0;
+}
+
+.two-img2 {
+    background-image: url(./img/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -37px;
+    width: 285px;
+    height: 531px;
+    z-index: 1;
+}
+
+
+/* three */
+.all-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 150px;
+}
+
+/* .reverse {
+
+} */
+
+.all-info img {
+    max-width: 500px;
+    max-height: 800px;
+}
+
+.all-info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+
+.all-info h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.all-info h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.threeH2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.walppaper {
+    background-image: url('./img/walpaper.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.walppaper h2 {
+    margin-block: 145px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.walppaper h4 {
+    margin-bottom: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+} 
+
+.walppaper-btn {
+    margin-bottom: 140px;
+    
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 0px 15px;
+}
+
+.social  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.social a {
+    cursor: pointer;
+    margin-inline: 10px;
+}
+
+.copyrite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    margin-top: 40px;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
+
+@media (max-width: 1090px) {
+
+    .all-info {
+        padding-inline: 100px;
+    }
+
+    .all-info img {
+        max-width: 400px;
+        max-height: 700px;
+    }
+}
+
+@media (max-width: 906px) {
+
+    .header h4 {
+        font-size: 16px;
+    }
+    
+    .header h1 {
+        font-size: 40px;
+    }
+    
+    .header p {
+        font-size: 16px;
+    }
+    
+    .all-info {
+        padding-inline: 50px;
+    }
+
+    .all-info img {
+        max-width: 400px;
+        max-height: 700px;
+    }
+
+    .all-info h2 {  
+        font-size: 30px;   
+    }
+
+    .all-info h3 {  
+        font-size: 14px;   
+    }
+    .all-info h4 {  
+        font-size: 14px;
+        
+    }
+}
+
+@media (max-width: 756px) {
+
+    .all-info {
+        flex-wrap: wrap;
+        padding-inline: 50px 0px;
+
+    }
+    
+    .reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+}
+
+@media (max-width: 680px) {
+
+    .two-section {
+        display: none;
+    }
+
+    .all-info {
+        text-align: center;
+        padding-inline: 15px 15px;
+    }
+
+    .all-info img {
+         margin-right: -50px;
+    }
+}
+
+@media (max-width: 570px) {
+
+
+    body {
+        margin: 0 auto;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .header h4 {
+        font-size: 14px;
+        
+    }
+    
+    .header h1 {
+        font-size: 36px;
+        padding-inline: 10px 10px;
+    }
+    
+    .header p {
+        font-size: 14px;
+    }
+    
+    .header-btns {
+        padding-bottom: 120px;
+        flex-direction: column;
+    }
+
+    .header-btn1 {
+        font-size: 24px;
+        background: #FA4A0C; 
+        margin-right: 0px;
+        margin-bottom: 15px; 
+    }
+
+    .header-btn2 {
+        font-size: 24px;
+        line-height: 36px;
+        background: #FA4A0C;
+    }
+
+    
+}
+
+@media (max-width: 450px) {
+
+    .nav .logo {
+        margin-left: 100px;
+        cursor: pointer;
+    }
+    .walppaper-btn {
+        margin: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .copyrite {
+        display: none;
+    }
+    .downLogo {
+        display: none;
+    }
+}
